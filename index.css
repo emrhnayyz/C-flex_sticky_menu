@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+i,a{
+    cursor: pointer;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(253, 253, 253);
+}
+
+.wrap{
+    width: 90vw;
+    height: 90vh;
+    background-color: rgb(138, 135, 135);
+   
+    padding: 20px;
+    border-radius: 5px;
+    
+
+  
+
+
+
+    
+}
+
+.wrap .top{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 0.1rem;
+    
+    
+    
+
+}
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0.1rem;
+    position: sticky;
+    top: 1px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0.1rem;
+
+}
+
+.top a{
+    text-decoration: none;
+    color: white;
+}
+
+.left1,.right1{
+    background-color: rgb(71, 70, 70);
+    width: 100%;
+    height: 100%;
+    padding: 4px;
+    color: white;
+    
+   
+
+}
+.right1{
+    display: flex;
+    justify-content: end;
+    
+    
+}
+
+.right1 a,.right1 span{
+    margin-left: 0.4rem;
+}
+
+.left2{
+    background-color: rgb(168, 166, 166);
+    height: 10vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.right2{
+    background-color: rgb(168, 166, 166);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 2px;
+    font-size: 1rem;
+}
+.right2 a,.right2 span{
+    margin-left: 0.7rem;
+}
+
+.content{
+    height: 80%;
+    width: auto;
+    background-color: white;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    
+
+    padding: 5px;
+
+}
+
+.coverwp{
+    width: 100%;
+    height: 10vh;
+
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.content .whatsup{
+    width: 5.5rem;
+    height: 5.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-right: 2rem;
+    
+    
+    
+    
+}
+
+.whatsup i{
+color: green;
+font-size: 5.5rem;
+position: fixed;
+
+}
+
